@@ -54,14 +54,14 @@ export const Badge = (props: Props) => {
     }}>Powered by
       <a
         ref={liteBadge}
-        href={'https://flowiseai.com'}
+        href={'https://max1.cloud'}
         target="_blank"
         rel="noopener noreferrer"
         class="lite-badge"
         id="lite-badge"
         style={{ "font-weight": 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
-        <span> Max1AI</span>
+        <span> Max1.Cloud </span>
       </a>
     </span>
   )
